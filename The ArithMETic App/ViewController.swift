@@ -14,8 +14,7 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
     
     @IBOutlet weak var pickerView: UIPickerView!
     
-    let activity = ["Select Activity","Bicycling","Jumping rope","Running - slow","Running - fast","Tennis","Swimming"]
-    
+    let activity = ["Bicycling","Jumping rope","Running - slow","Running - fast","Tennis","Swimming"]
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
