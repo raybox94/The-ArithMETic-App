@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelegate {
     
-    var activity1:String?
+    var activity1:String? = "Bicycling"
     
     @IBOutlet weak var pickerView: UIPickerView!
     
@@ -59,7 +59,7 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
     @IBAction func clear(_ sender: Any) {
         weightTF.text = ""
         excerciseTF.text = ""
-        activity1 = nil
+        activity1 = "Bicycling"
         energyConsumedLB.text = "0 cal"
         timeLoseLB.text = "0 minutes"
         pickerView.selectRow(0, inComponent: 0, animated: true)
